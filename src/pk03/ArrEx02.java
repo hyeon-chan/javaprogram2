@@ -7,7 +7,6 @@ public class ArrEx02 {
 		int[] data;
 		int sum;
 		double avg;
-
 		data = new int[] {10, 50, 100, 7, 8, 25};
 
 		sum = 0;
