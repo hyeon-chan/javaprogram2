@@ -3,7 +3,7 @@ package week3;
 abstract class AppExBase3{
 	int[] data;
 
-	public void basePrint() {
+	void basePrint() {
 		System.out.print("기본데이터 : ");
 		for(int i=0; i<data.length; i++)
 			System.out.print(data[i] + " ");

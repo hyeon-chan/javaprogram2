@@ -2,13 +2,13 @@ package week4;
 import java.util.Scanner;
 
 interface interEx04 {
-    Scanner scanner = new Scanner(System.in);
     void input();
     void process();
     void print();
 }
 
 class Check implements interEx04 {
+	Scanner scanner = new Scanner(System.in);
     String Eng;
     int x;    
     int y;    
